@@ -26,3 +26,63 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+
+*,
+div,
+span,
+body,
+h2 {
+  font-size: 24px;
+  margin: 15px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.app-form {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.math-question {
+  border: 2px solid #20262E;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+}
+
+.math-question h2 {
+  padding: 2px;
+  margin: 2px;
+  text-align: right;
+  width: 100px;
+}
+
+.math-question h2:last-of-type {
+  border-bottom: 3px solid black;
+}
+
+body {
+  background: #aaa;
+}
+
+#app {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+.invalid {
+  border: 2px solid red;
+}
